@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Display';
+  src: url('./assets/fonts/Deposta.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvantGarde_B';
+  src: url('./assets/fonts/AVGARDD_2.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvantGarde_R';
+  src: url('./assets/fonts/AVGARDDO_2.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvantGarde_I';
+  src: url('./assets/fonts/AVGARDN_2.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --primary-color: #d7617c;
+  --secondary-color: #bc808b;
+  --background-color: #f7f5dd;
+  --accent-color: #2e6a4a;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--background-color);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
