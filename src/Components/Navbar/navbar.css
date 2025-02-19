@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+    width: 100vw;
+    margin-top: 1rem;
+}
+
+h1{
+    color: #FF1F1F;
+    font-family: 'Deposta', sans-serif;
+    height: 100px;
+    text-align: center;
+    width: 40vw;
+    font-size: 3.5rem;
+}
+

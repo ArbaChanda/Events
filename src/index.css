@@ -13,24 +13,25 @@
 }
 
 @font-face {
-  font-family: 'AvantGarde_R';
+  font-family: 'AvantGarde_I';
   src: url('./assets/fonts/AVGARDDO_2.TTF') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'AvantGarde_I';
+  font-family: 'AvantGarde_R';
   src: url('./assets/fonts/AVGARDN_2.TTF') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 :root {
-  --primary-color: #d7617c;
-  --secondary-color: #bc808b;
-  --background-color: #f7f5dd;
-  --accent-color: #2e6a4a;
+  --red: #ff1f1f;
+  --accent-blue: #003049;
+  --background-color: #fdf0d5;
+  --accent-blue-neutral: #022435;
+  --yellow: #f7bf50;
 }
 
 body{
