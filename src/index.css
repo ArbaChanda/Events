@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* font-family: "Lobster", sans-serif; */
+
 @font-face {
   font-family: 'Display';
   src: url('./assets/fonts/Deposta.otf') format('opentype');
@@ -26,6 +29,7 @@
   font-style: normal;
 }
 
+
 :root {
   --red: #ff1f1f;
   --accent-blue: #003049;
@@ -35,8 +39,10 @@
 }
 
 body{
-  height: 100vh;
+  /* height: auto; */
   width: 100vw;
+  overflow: hidden;
+  box-sizing: border-box;
   background-color: var(--background-color);
 }
 
@@ -44,5 +50,9 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
+  overflow-x: hidden;
+}
+
+button{
+  cursor: pointer;
 }
