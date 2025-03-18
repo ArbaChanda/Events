@@ -1,6 +1,7 @@
 .btn{
-    height: 5vh;
+    height: auto;
     margin-left: 15px;
+    margin-right: 15px;
     width: clamp(8vw, 8vw, 100px);
     font-size: clamp(40px, 7vw, 30px);
     font-weight: 200;

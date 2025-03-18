@@ -44,10 +44,12 @@
     color: var(--accent-blue);
 }
 
-.desktop-nav-components li{
+.nav-components{
     margin: 0 2.5vw;
     cursor: pointer;
     list-style-type: none;
+    text-decoration: none;
+    color: var(--accent-blue); 
 }
 
 @media (max-width: 840px) {

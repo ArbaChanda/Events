@@ -5,11 +5,13 @@ import Services from './Pages/Services/Services';
 import Contact from './Pages/Contact/Contact';
 import Gallery from './Pages/Gallery/Gallery';
 import { Route, Routes } from 'react-router-dom';
+import DesktopNavbar from './Components/Desktop-Navbar/DesktopNavbar';
 
 const App = () => {
   return (
     <>
     {/* <Home /> */}
+    <DesktopNavbar />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/services" element={<Services />} />
