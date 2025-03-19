@@ -6,6 +6,7 @@ import Section from '../../Components/Section(home)/SectionHome';
 import img1 from "../../assets/images/home/img1.jpg";
 import img2 from "../../assets/images/home/img2.png";
 import img3 from "../../assets/images/home/img3.png";
+import Testimonials from './Testimonials';
 
 
 const Home = () => {
@@ -39,6 +40,8 @@ const Home = () => {
         image={img3}
         reverse={false} // Image on right
       />
+
+      <Testimonials />
     </>
   )
 }
