@@ -7,4 +7,36 @@
     padding: 0 5vh;
 }
 
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20vh 0;
+    padding-bottom: 3vh;
+    min-width: 21vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
 
+.partition{
+    height: 1px;
+    width: 100vw;
+    background-color: var(--red);
+    margin-bottom: 10vh;
+}
+.partition2{
+    height: 3px;
+    width: 100vw;
+    background-color: var(--background-color);
+    margin-top: 10vh;
+}
+
+@media(max-width: 840px){
+    .footerNav{
+        display: none;
+    }
+    .partition, .partition2{
+        display: none;
+    }
+}

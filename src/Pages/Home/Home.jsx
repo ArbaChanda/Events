@@ -7,6 +7,9 @@ import img1 from "../../assets/images/home/img1.jpg";
 import img2 from "../../assets/images/home/img2.png";
 import img3 from "../../assets/images/home/img3.png";
 import Testimonials from './Testimonials';
+import CTA_btn from '../../Components/CTA_btn/CTA_btn';
+import DesktopNavbar from '../../Components/Desktop-Navbar/DesktopNavbar';
+import Footer from '../../Components/Footer/Footer';
 
 
 const Home = () => {
@@ -42,6 +45,18 @@ const Home = () => {
       />
 
       <Testimonials />
+
+      <div className="call-to-action">
+      <CTA_btn />
+      </div>
+
+      <div className="partition"></div>
+      <div className="footerNav">
+      <DesktopNavbar />   
+      </div>
+      <div className="partition2"></div>
+
+      <Footer />
     </>
   )
 }
