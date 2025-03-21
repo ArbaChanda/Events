@@ -1,7 +1,7 @@
 import React from 'react'
 import './hero.css'
 import CTA_btn from '../../Components/CTA_btn/CTA_btn'
-import heroImg from '../../assets/images/services/serviceHero.png' 
+import heroImg from '../../assets/images/services/servicehero.png' 
 
 const Hero = () => {
   return (
