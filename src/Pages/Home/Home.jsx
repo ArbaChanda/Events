@@ -50,11 +50,9 @@ const Home = () => {
       <CTA_btn />
       </div>
 
-      <div className="partition"></div>
       <div className="footerNav">
       <DesktopNavbar />   
       </div>
-      <div className="partition2"></div>
 
       <Footer />
     </>

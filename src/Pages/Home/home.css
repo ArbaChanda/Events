@@ -19,17 +19,9 @@
     height: auto;
 }
 
-.partition{
-    height: 1px;
-    width: 100vw;
-    background-color: var(--red);
-    margin-bottom: 10vh;
-}
-.partition2{
-    height: 3px;
-    width: 100vw;
-    background-color: var(--background-color);
-    margin-top: 10vh;
+.footerNav{
+    background-color: var(--grey);
+    margin-bottom: 7vh;
 }
 
 @media(max-width: 840px){

@@ -12,15 +12,21 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+    object-position: 0 96%;
 }
 
+@media (max-width: 1240px) {
+    .hero-section .mobile-version-img{
+        object-position: center 96%;
+    }
+}
 
 .hero-section::before{
     content: "";
     height: 100%;
     width: 100%;
     background-color: var(--accent-blue-neutral);
-    opacity: 0.7;
+    opacity: 0.5;
     position: absolute;
     top: 0;
     left: 0;
