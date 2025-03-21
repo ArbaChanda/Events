@@ -1,0 +1,43 @@
+.service-type-section{
+    height: 70vh;
+    width: 18vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'AvantGarde_R', sans-serif;
+    position: relative;
+    gap: 2rem;
+    /* padding-bottom: 5vh; */
+}
+
+.service-type-section img{
+    position: absolute;
+    top: 0;
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    overflow-x: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.service-type-section h4{
+    font-size: calc(1.2rem + 0.5vw);
+    font-weight: 400;
+    color: var(--accent-blue);
+    margin-top: 1rem;
+    position: absolute;
+    bottom: 10%;
+    letter-spacing: 0.2;
+    cursor: pointer;
+}
+
+@media(max-width: 840px){
+    .service-type-section{
+        width: 45vw;
+        height: 60vh;
+        gap: 3vw;
+    }
+}

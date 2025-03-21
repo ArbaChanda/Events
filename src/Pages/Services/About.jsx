@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ImageCluster from '../../Components/Image-Cluster/ImageCluster';
+import about1 from '../../assets/images/services/about1.png'
 
 const About = () => {
   return (
@@ -17,7 +17,11 @@ const About = () => {
         </div>
 
 
-        <ImageCluster />
+        <div className="about-images">
+          <div className="about1">
+              <img src={about1} alt="img" />
+          </div>
+        </div>
 
 
     </div>

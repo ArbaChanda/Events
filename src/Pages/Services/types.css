@@ -1,0 +1,32 @@
+.types{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100vw;
+    font-family: 'AvantGarde_R', sans-serif;
+    flex-direction: column;
+    margin: 15vh 0;
+    flex-wrap: wrap;
+}
+
+.types h3{
+    font-size: calc(2rem + 1.5vw);
+    color: var(--accent-blue);
+    margin-bottom: 3.5rem;
+}
+
+.types-of-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    font-family: 'AvantGarde_R', sans-serif;
+}
+
+@media(max-width: 840px){
+    .types-of-services{
+        gap: 1rem;
+    }
+}
