@@ -22,6 +22,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
+    width: 100%;
     font-family: 'AvantGarde_R', sans-serif;
 }
 
@@ -29,4 +30,8 @@
     .types-of-services{
         gap: 1rem;
     }
+}
+
+@media(max-width: 580px){
+
 }

@@ -1,0 +1,32 @@
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100vw;
+    font-family: 'AvantGarde_R', sans-serif;
+    flex-direction: column;
+}
+
+.gallery h1{
+    font-size: calc(2rem + 1.5vw);
+    color: var(--accent-blue);
+    margin: 8vh 0;
+}
+
+.gallery .pictures{
+    width: 100%;
+    height: auto;
+    padding: 2vh 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.gallery .pictures img{
+    height: 250px;
+    width: auto;
+    gap: 2rem;
+}

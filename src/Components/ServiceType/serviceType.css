@@ -1,5 +1,5 @@
 .service-type-section{
-    height: 70vh;
+    height: 65vh;
     width: 18vw;
     display: flex;
     justify-content: center;
@@ -29,15 +29,25 @@
     color: var(--accent-blue);
     margin-top: 1rem;
     position: absolute;
-    bottom: 10%;
+    bottom: 7%;
     letter-spacing: 0.2;
     cursor: pointer;
+    text-align: center;
 }
 
 @media(max-width: 840px){
     .service-type-section{
-        width: 45vw;
+        width: clamp(50vw, 55vw, 100vw);
         height: 60vh;
         gap: 3vw;
+    }
+    .service-type-section h4{
+        bottom: 9%;
+    }
+}
+
+@media(max-width: 580px){
+    .service-type-section{
+        width: clamp(50vw, 65vw, 95vw);
     }
 }
