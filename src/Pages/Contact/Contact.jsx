@@ -1,6 +1,7 @@
 import React from 'react'
 import './contact.css'
-import CTA_btn from '../../Components/CTA_btn/CTA_btn';
+import Hero from './Hero';
+import Form from './Form';
 import DesktopNavbar from '../../Components/Desktop-Navbar/DesktopNavbar';
 import MobileNavbar from '../../Components/Mobile-Navbar/MobileNavbar';
 import Footer from '../../Components/Footer/Footer';
@@ -10,17 +11,13 @@ const Contact = () => {
     <div>
 
       <div className='navbar'>
-
         {/* Mobile navbar  */}
         <MobileNavbar />
-
       </div>
 
-      <p>this is contact</p>
+      <Hero />
 
-      <div className="call-to-action">
-      <CTA_btn />
-      </div>
+      <Form />
 
       <div className="partition"></div>
       <div className="footerNav">

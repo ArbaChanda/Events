@@ -9,9 +9,11 @@
 }
 
 .gallery h1{
-    font-size: calc(2rem + 1.5vw);
+    font-size: calc(3rem + 1.5vw);
     color: var(--accent-blue);
     margin: 8vh 0;
+    height: 100%;
+    text-align: center;
 }
 
 .gallery .pictures{
