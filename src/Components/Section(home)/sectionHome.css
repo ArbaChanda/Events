@@ -19,6 +19,7 @@
 .home-section-discription{
     width: 60%;
     padding: 2vh 0;
+    /* padding: 3vh 6vw; */
 }
 .home-section-discription h3{
     height: 100%;
@@ -47,10 +48,6 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    max-width: 50%;
-    min-width: 300px;
-    max-height: 90%;
-    min-height: 200px;
 }
 
 .reverse .home-section-discription{

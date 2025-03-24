@@ -11,6 +11,7 @@ const App = () => {
   return (
     <>
     <DesktopNavbar />
+    <div className="filler-div"></div>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/services" element={<Services />} />

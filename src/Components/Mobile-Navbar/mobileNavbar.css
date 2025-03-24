@@ -19,9 +19,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 500;
+    background-color: var(--background-color);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .mobile-menu{

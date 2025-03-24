@@ -3,3 +3,21 @@
 *{
     overflow-y: auto;
 }
+
+.filler-div{
+    height: 15vh;
+    background-color: var(--background-color);
+}
+
+@media (min-width: 840px) {
+    .filler-div{
+        display: none;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 840px) {
+    .filler-div{
+        height: 6vh;
+    }
+}
+
