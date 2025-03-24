@@ -5,6 +5,15 @@
     justify-content: center;
     align-items: space-between;
     padding: 0 5vh;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: var(--background-color);
+}
+
+.home-container{
+    overflow-y: auto;
+    align-items: start;
 }
 
 .call-to-action{
@@ -30,5 +39,9 @@
     }
     .partition, .partition2{
         display: none;
+    }
+
+    .navbar{
+        padding: 1vh 2vw;
     }
 }

@@ -10,7 +10,6 @@ import DesktopNavbar from './Components/Desktop-Navbar/DesktopNavbar';
 const App = () => {
   return (
     <>
-    {/* <Home /> */}
     <DesktopNavbar />
     <Routes>
       <Route path="/" element={<Home />} />

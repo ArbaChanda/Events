@@ -40,9 +40,8 @@
 }
 
 body{
-  /* height: auto; */
   width: 100vw;
-  overflow: hidden;
+  overflow-x: hidden;
   box-sizing: border-box;
   background-color: var(--background-color);
 }

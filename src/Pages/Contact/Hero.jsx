@@ -8,7 +8,7 @@ const Hero = () => {
     <>
         <div className='hero-section'>
             <img className='contact-hero-img' src={heroImg} alt="image" />
-            <div className="discription">
+            <div className="contact-page-discription">
                 <h2>Get in Touch – Let's Make Something Amazing Together!</h2>
                 <CTA_btn />
         </div>

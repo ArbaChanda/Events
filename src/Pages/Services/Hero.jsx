@@ -7,7 +7,7 @@ const Hero = () => {
   return (
    <div className='services-hero-section'>
         <img className='hero-img' src={heroImg} alt="image" />
-        <div className="discription">
+        <div className="services-page-discription">
           <h2>Your Event, Our Expertise</h2>
           <h3>We offter a wide range of services tailored to make your occasion perfect.</h3>
           <CTA_btn />

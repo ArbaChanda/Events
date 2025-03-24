@@ -2,7 +2,6 @@
     color: var(--red);
     font-family: 'Lobster', sans-serif;
     font-size: calc(3rem + 2vw);
-    /* font-size: clamp(3rem, calc(4rem + 3vw), 3.5rem); */
     font-weight: 600;
     width: 80vw;
     display: flex;
@@ -16,10 +15,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 500;
 }
 
 @media (min-width: 840px) {
     .mobile-nav{
         display: none;
     }
+}
+
+@media(min-width: 460px) and (max-width: 840px){
+    .mobile-nav{
+        padding: 1vh 2vw;
+    } 
 }
