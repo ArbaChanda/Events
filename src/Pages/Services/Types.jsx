@@ -24,7 +24,7 @@ const Types = () => {
             nameOfService="Formal Dinners" />
             <ServiceType 
             img={service4}
-            nameOfService="Cultural gatherings" />
+            nameOfService="Graduation Parties" />
 
         </div>
     </div>

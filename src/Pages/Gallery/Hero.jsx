@@ -1,6 +1,6 @@
 import React from 'react'
 import CTA_btn from '../../Components/CTA_btn/CTA_btn'
-import heroImg from '../../assets/images/gallery/galleryHero.png' 
+import heroImg from '../../assets/images/gallery/galleryHero.jpg' 
 import './hero.css'
 
 const Hero = () => {
